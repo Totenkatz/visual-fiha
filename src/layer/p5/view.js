@@ -5,7 +5,7 @@ var P5LayerView = LayerView.types.p5 = LayerView.extend({
   autoRender: true,
 
   template: function() {
-    return '<div class="layer-txt" id="' + this.model.getId() + '" view-id="' + this.cid + '"><div class="text"></div></div>';
+    return '<div class="layer-p5" id="' + this.model.getId() + '" view-id="' + this.cid + '"><div class="text"></div></div>';
   },
 
   bindings: assign(LayerView.prototype.bindings, {
