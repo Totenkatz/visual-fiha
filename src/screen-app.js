@@ -10,6 +10,9 @@ require.ensure([
   'ampersand-view-switcher'
 ], function() {
 require.ensure([
+  'p5',
+], function() {
+require.ensure([
   'three',
 ], function() {
 require.ensure([
@@ -42,5 +45,6 @@ setTimeout(resize, 1500);
 }, 'screen-view');
 }, 'screen-state');
 }, 'threejs');
+}, 'p5');
 }, 'ampersand-view');
 }, 'ampersand-data');
